@@ -17,7 +17,7 @@ from sklearn.metrics import confusion_matrix
 
 X, y = make_blobs(n_samples=500, centers=2,
                 random_state=0, cluster_std=0.60)
-#make blobs is another sample database is scikit learn
+#make blobs is a frame to create a dataset
 
 plt.scatter(X[:, 0], X[:, 1], c=y, cmap='winter')
 
